@@ -142,6 +142,7 @@ a:hover{
   display: flex;
   justify-content: row;
   background-color: #F6F8FD;
+  border-radius: 1rem;
 }
 .amount-div{
   position: absolute;
@@ -149,7 +150,6 @@ a:hover{
   bottom:23%;
   height:56px;
   max-width:157px;
-  border-radius: 5rem;
 }
 .more,.less{
   color:#FF7E1B;
@@ -169,5 +169,76 @@ a:hover{
   padding-left:40px;
   font-weight: 700;
 }
-
+.add-to-cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:270px;
+  height:56px;
+  background-color:#FF7E1B;
+  border-radius:0.7rem;
+  box-shadow: 0px 20px 50px -20px #FF7E1B;
+}
+.add-to-cart:hover{
+  background-color: #f3944b;
+}
+.button-image{
+  height:18px;
+  width:18px;
+}
+.button-image path{
+  fill: #F6F8FD; 
+}
+.button-text{
+  color:white;
+  margin-left:20px;
+  font-weight:700;
+}
+.add-to-cart-div{
+  position: absolute;
+  bottom:23%;
+  right:24%;
+}
+.cart{
+  position: absolute;
+  right:19%;
+  top:8%;
+  width: 360px;
+  height:262px;
+  background-color:rgb(255, 255, 255);
+  border-radius:0.5rem;
+  box-shadow: 0px 20px 50px -20px rgba(29, 32, 38, 0.50);
+  z-index:1;
+}
+.non-cart{
+  display: none;
+}
+.cart-up{
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border-bottom:1px solid rgba(107, 107, 107,0.2);
+}
+.cart-up-cart{
+  margin-top:30px;
+  margin-left:25px;
+  font-weight: 700;
+  font-size:18px;
+  color:#1D2026;
+}
+.cart-down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:180px;
+}
+.cart-down-comment{
+  color: #69707D;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  }
 
