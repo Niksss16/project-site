@@ -178,6 +178,14 @@ a:hover{
   background-color:#FF7E1B;
   border-radius:0.7rem;
   box-shadow: 0px 20px 50px -20px #FF7E1B;
+  border:none;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+
 }
 .add-to-cart:hover{
   background-color: #f3944b;
@@ -241,4 +249,14 @@ a:hover{
   font-weight: 700;
   line-height: 26px;
   }
+ 
+  .item{
+    max-width: 400px;
+    display: flex;
+    justify-content: row;
+  }
+  .non-item{
+    display: none;
+  }
+
 

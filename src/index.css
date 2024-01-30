@@ -1,0 +1,206 @@
+.item-image{
+    margin:20px;
+    border-radius: 0.5rem;
+    margin-top:15px;
+    width:50px;
+    height:50px;
+}
+.item-button{
+    height:30px;
+    width:30px;
+    background-color: white;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:25px;
+    margin-left:20px;
+}
+.item-heading{
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #69707D;
+
+}
+.somediv{ 
+    background-color: red;
+    margin-right:50px;
+ 
+}
+
+.amount-price{
+    position:absolute;
+    top:33%;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color:#69707D;
+
+}
+.sum{
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    position: absolute;
+    top:31%;
+    right:46%;
+    color: #1D2026;
+}
+.cart-comment-off{
+    display: none;
+}
+.checkout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:270px;
+    height:56px;
+    background-color:#FF7E1B;
+    border-radius:0.7rem;
+    box-shadow: 0px 20px 50px -20px #FF7E1B;
+    border:none;
+    color:white;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 700;
+
+
+}
+.checkout-box{
+    position: absolute;
+    top:60%;
+    left:12%;
+}
+.checkout:hover{
+    background-color: #f3944b;
+  }
+.non-checkout{
+    display: none;
+}
+.review-process{
+    display: flex;
+    flex-direction: column;
+    height:70vh;
+    max-width:640px;
+}
+.headline{
+    height:45px;
+    width:650px;
+    border-radius:0.5rem;
+    border:1px solid #69707D;
+}
+.review-div{
+    position: absolute;
+    left:25%;
+    top:100%;
+}
+.review-side{
+    height:30vh;
+    width: 100%;
+}
+.review-heading1{
+    font-family: Kumbh Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.review-heading2{
+    font-family: Kumbh Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.review-heading3{
+    font-family: Kumbh Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.written-text{
+    max-width: 640px;
+    height:126px;
+    border:1px solid #69707D;
+    border-radius:0.7rem;
+}
+.review-buttons{
+    margin-top:20px;
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+}
+.review-cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97px;
+    height:47px;
+    border:none;
+    background-color: #69707D;
+    color: white;
+    border-radius: 1rem;
+}
+.review-save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97px;
+    height:47px;
+    color:white;
+    background-color:#FF7E1B;
+    border:none;
+    border-radius: 1rem;
+}
+.reviewside-delete{
+    display: none;
+}
+.comment{
+    width:80%;
+    margin:auto;
+    
+}
+.commentReview{
+    width: 665px;
+    height:145px;
+}
+.commentFirstRow{
+    display: flex;
+    justify-content: space-between;
+}
+.edit-button{
+    background-color: white;
+    color:black;
+    border:none;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.edit-button:hover{
+    color:#69707D
+}
+.no-comment{
+    display: none;
+}
+.MainDiv{
+    height:930px;
+}
+.main-comments{
+    width:45%;
+    margin:auto;
+}
+.ReviewHeadline-box{
+    margin:auto;
+}
